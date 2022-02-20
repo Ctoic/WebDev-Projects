@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg {
+  background: url("https://images.unsplash.com/photo-1576161787924-01bb08dad4a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2104&q=80")
+    no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
+}
+h3 {
+  font: bolder;
+  color: rgb(47, 24, 24);
+}
+.form {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(3, 3, 3);
+  padding: 20px;
+  margin: 20px;
+  float: ri;
+  line-height: 2em;
+  background-image: url(bg.jpg);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 40%;
+}
+.space-1 {
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  height: 100px;
+  float: left;
+  color: rgb(255, 255, 255);
+  -ms-flex-order: initial;
+}
+.button {
+  width: 100%;
+  font: bolder;
+  color: green;
+}
+.container-1 ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 15px;
+}
+
+.container-1 ul li a {
+  text-decoration: none;
+  color: #ba3509;
+  font-weight: bold;
+  font-size: 20px;
+}
